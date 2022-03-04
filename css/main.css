@@ -1,0 +1,45 @@
+:root{
+    --background-nav: #3076ff;
+    --color-blue:#3076ff;
+    --color-white:white;
+}
+
+body {
+    background: url(../ext/img/background.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav{
+    background-color: var(--background-nav);
+    width: 100%;
+}
+
+nav a {
+    padding: 12px;
+    color: var(--color-white);
+    text-decoration: unset;
+    transition: all 250ms;
+}
+
+
+nav  a:hover{
+    background-color: var(--color-white);
+    color: var(--background-nav);
+}
+
+
+header.container {
+    background-color: var(--background-nav);
+    color: var(--color-white);
+}
+
+.row{
+    margin: unset !important;
+    padding: unset !important;
+}
+
+.actualGiveaway{
+    color: var(--color-blue);
+    background-color: var(--color-white);
+}
